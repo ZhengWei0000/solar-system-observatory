@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@10.33.0",
+  "main": "electron/main.js",
   "scripts": {
     "dev": "next dev --webpack",
     "build": "next build --webpack",
@@ -29,6 +30,11 @@
     "build:orbits": "node --import tsx ./scripts/buildOrbitSamples.ts",
     "build:search": "node --import tsx ./scripts/buildSearchIndex.ts",
     "build:data": "node --import tsx ./scripts/buildOrbitSamples.ts && node --import tsx ./scripts/buildSearchIndex.ts",
+    "desktop:dev": "node ./scripts/desktop-dev.js",
+    "desktop:build": "node ./node_modules/next/dist/bin/next build --webpack && electron-builder --config electron-builder.config.json",
+    "desktop:build:portable": "node ./node_modules/next/dist/bin/next build --webpack && electron-builder --config electron-builder.config.json --win portable",
+    "desktop:pack:win": "node ./node_modules/next/dist/bin/next build --webpack && electron-builder --config electron-builder.config.json --win",
+    "desktop:run": "electron .",
     "sync:all": "node --import tsx ./scripts/syncCatalog.ts && node --import tsx ./scripts/syncPhysicalParams.ts && node --import tsx ./scripts/generatePlanetTextureAssets.ts && node --import tsx ./scripts/syncOfficialPlanetTextures.ts && node --import tsx ./scripts/syncFeaturedAssets.ts && node --import tsx ./scripts/buildOrbitSamples.ts && node --import tsx ./scripts/buildSearchIndex.ts"
   },
   "dependencies": {
@@ -58,6 +64,8 @@
     "postcss": "^8.5.9",
     "tailwindcss": "^4.2.2",
     "tsx": "^4.21.0",
+    "electron": "^36.0.0",
+    "electron-builder": "^26.0.12",
     "typescript": "^6.0.2",
     "vitest": "^4.1.4"
   }

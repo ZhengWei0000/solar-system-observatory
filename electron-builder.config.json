@@ -1,0 +1,39 @@
+{
+  "appId": "com.zhengwei.solar-system-observatory",
+  "productName": "solar-system-observatory",
+  "artifactName": "${productName}-${version}.${ext}",
+  "directories": {
+    "output": "dist-desktop"
+  },
+  "asar": false,
+  "extraMetadata": {
+    "main": "electron/main.js"
+  },
+  "files": [
+    "**/*",
+    "!**/.next/cache/**",
+    "!**/coverage/**",
+    "!.DS_Store",
+    "!.git/**"
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      },
+      {
+        "target": "portable",
+        "arch": ["x64"]
+      }
+    ],
+    "artifactName": "${productName}-${version}-${arch}.${ext}"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true
+  },
+  "portable": {
+    "artifactName": "${productName}-${version}-portable.${ext}"
+  }
+}

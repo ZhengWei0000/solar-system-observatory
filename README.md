@@ -51,7 +51,52 @@ pnpm dev
 
 打开 [http://localhost:3000](http://localhost:3000)。
 
-### 2.1 上传到 GitHub（推荐）
+### 2.1 Windows 零环境配置发布版（推荐给朋友）
+
+你可以直接发给别人一个安装文件（不需要对方有 Node、pnpm、Python、Git、Docker），安装后双击运行即可。
+
+```bash
+pnpm desktop:build
+```
+
+或者（无 pnpm 本地安装）：
+
+```bash
+npx --yes pnpm@10 run desktop:build
+```
+
+> 说明：Windows 安装包请在 Windows 机器上执行打包流程，或使用 GitHub Actions/Windows Runner 自动构建，避免跨平台打包兼容问题。
+
+打包输出：
+
+- `dist-desktop/solar-system-observatory-Setup-<version>-x64.exe`（安装版）
+- `dist-desktop/solar-system-observatory-<version>-portable.exe`（便携版）
+- `dist-desktop/win-unpacked/`（调试产物）
+
+运行/开发调试命令：
+
+```bash
+pnpm desktop:dev      # 本地启动 Next 开发服务器 + Electron 客户端（调试）
+pnpm desktop:run      # 运行已打包前的开发版入口（依赖 node_modules 中的 electron）
+pnpm desktop:pack:win # 强制只生成 Windows 打包产物
+```
+
+分享方式不再依赖域名，只要在发布页放“安装包直链”：
+
+```
+https://github.com/ZhengWei0000/solar-system-observatory/releases/latest
+```
+
+用户下载 `.exe` 安装后打开 `Solar System Observatory`，直接访问：
+
+- `首页 /`
+- `太阳系总览 /solar-system`
+- `系统页 /system/earth`
+- `详情页 /body/earth`
+- `学习页 /learn`
+- `来源页 /sources`
+
+### 2.2 上传到 GitHub（推荐）
 
 仓库已添加远端：
 
@@ -78,7 +123,7 @@ git remote set-url origin git@github.com:ZhengWei0000/solar-system-observatory.g
 git push -u origin main
 ```
 
-### 2.1 没有自己的域名也能共享
+### 2.3 没有自己的域名也能共享
 
 可以不买域名直接发公开链接给别人，先启动站点后，再执行公开隧道命令：
 
