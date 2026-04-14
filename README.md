@@ -73,6 +73,16 @@ npx --yes pnpm@10 run desktop:build
 - `dist-desktop/solar-system-observatory-<version>-portable.exe`（便携版）
 - `dist-desktop/win-unpacked/`（调试产物）
 
+也可通过仓库自带的 GitHub Actions 自动打包：
+
+- 提交或推送版本 Tag（如 `v0.1.0`）后，GitHub Actions 会自动在 Windows 环境构建并上传 Release 产物；
+- 你只需进入仓库 Releases 页面下载最新版；
+- 对外分享固定入口仍是：
+
+```
+https://github.com/ZhengWei0000/solar-system-observatory/releases/latest
+```
+
 运行/开发调试命令：
 
 ```bash
