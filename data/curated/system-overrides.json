@@ -1,0 +1,121 @@
+[
+  {
+    "id": "system-earth",
+    "slug": "earth",
+    "name": "Earth System",
+    "chineseName": "地月系统",
+    "primaryBodyId": "earth",
+    "featuredBodyIds": [
+      "earth",
+      "moon"
+    ],
+    "description": {
+      "oneLine": "地球与月球构成观测与比较行星学最重要的近邻系统。",
+      "short": "地月系统以潮汐作用、双体角动量交换与人类直接探测史为核心价值。"
+    }
+  },
+  {
+    "id": "system-mars",
+    "slug": "mars",
+    "name": "Mars System",
+    "chineseName": "火星系统",
+    "primaryBodyId": "mars",
+    "featuredBodyIds": [
+      "mars",
+      "phobos",
+      "deimos"
+    ],
+    "description": {
+      "oneLine": "火星系统由主星与两颗微小卫星组成，尺寸反差极强。",
+      "short": "火卫一和火卫二适合讲解捕获起源、潮汐演化与近行星卫星动力学。"
+    }
+  },
+  {
+    "id": "system-jupiter",
+    "slug": "jupiter",
+    "name": "Jupiter System",
+    "chineseName": "木星系统",
+    "primaryBodyId": "jupiter",
+    "featuredBodyIds": [
+      "jupiter",
+      "io",
+      "europa",
+      "ganymede",
+      "callisto"
+    ],
+    "description": {
+      "oneLine": "木星系统是研究共振、火山活动与冰卫星海洋的核心舞台。",
+      "short": "从伽利略卫星到不规则卫星群，木星系统层次丰富且教学价值极高。"
+    }
+  },
+  {
+    "id": "system-saturn",
+    "slug": "saturn",
+    "name": "Saturn System",
+    "chineseName": "土星系统",
+    "primaryBodyId": "saturn",
+    "featuredBodyIds": [
+      "saturn",
+      "titan",
+      "enceladus",
+      "mimas",
+      "iapetus"
+    ],
+    "description": {
+      "oneLine": "土星系统把行星环、冰卫星与远距不规则卫星组合成最复杂的层级之一。",
+      "short": "MVP 会重点突出泰坦与恩克拉多斯，同时保留长尾卫星目录与轨道入口。"
+    }
+  },
+  {
+    "id": "system-uranus",
+    "slug": "uranus",
+    "name": "Uranus System",
+    "chineseName": "天王星系统",
+    "primaryBodyId": "uranus",
+    "featuredBodyIds": [
+      "uranus",
+      "titania",
+      "oberon",
+      "ariel",
+      "umbriel"
+    ],
+    "description": {
+      "oneLine": "天王星系统适合观察倾斜自转轴与多层卫星家族的组合效应。",
+      "short": "主星极端倾角和莎士比亚主题命名共同构成了独特的系统辨识度。"
+    }
+  },
+  {
+    "id": "system-neptune",
+    "slug": "neptune",
+    "name": "Neptune System",
+    "chineseName": "海王星系统",
+    "primaryBodyId": "neptune",
+    "featuredBodyIds": [
+      "neptune",
+      "triton",
+      "nereid",
+      "proteus"
+    ],
+    "description": {
+      "oneLine": "海王星系统围绕逆行巨卫星海卫一展开，是捕获起源研究的关键案例。",
+      "short": "海王星系统成员不多，但动力学和起源问题都非常鲜明。"
+    }
+  },
+  {
+    "id": "system-pluto",
+    "slug": "pluto",
+    "name": "Pluto System",
+    "chineseName": "冥王星系统",
+    "primaryBodyId": "pluto",
+    "featuredBodyIds": [
+      "pluto",
+      "charon",
+      "nix",
+      "hydra"
+    ],
+    "description": {
+      "oneLine": "冥王星系统是理解矮行星系统与双体重心的最佳入口。",
+      "short": "冥王星与冥卫一质量比很高，其余小卫星则展示了紧凑系统的层级结构。"
+    }
+  }
+]

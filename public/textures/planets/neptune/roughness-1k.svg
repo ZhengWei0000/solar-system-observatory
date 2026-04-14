@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="512" viewBox="0 0 1024 512" preserveAspectRatio="none" aria-label="neptune roughness texture">
+    <rect x="0" y="0.00" width="1024" height="86.33" fill="rgb(120,120,120)"/>
+  <rect x="0" y="85.33" width="1024" height="86.33" fill="rgb(133,133,133)"/>
+  <rect x="0" y="170.67" width="1024" height="86.33" fill="rgb(146,146,146)"/>
+  <rect x="0" y="256.00" width="1024" height="86.33" fill="rgb(159,159,159)"/>
+  <rect x="0" y="341.33" width="1024" height="86.33" fill="rgb(172,172,172)"/>
+  <rect x="0" y="426.67" width="1024" height="86.33" fill="rgb(185,185,185)"/>
+</svg>

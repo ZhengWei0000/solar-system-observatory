@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="512" viewBox="0 0 1024 512" preserveAspectRatio="none" aria-label="earth night lights texture">
+  <rect width="100%" height="100%" fill="#000814"/>
+  <g fill="#ffbf66" opacity="0.78">
+    <circle cx="245.76" cy="215.04" r="6.144"/>
+    <circle cx="276.48" cy="194.56" r="5.12"/>
+    <circle cx="501.76" cy="168.96" r="8.192"/>
+    <circle cx="552.96" cy="189.44" r="6.144"/>
+    <circle cx="778.24" cy="235.52" r="8.192"/>
+    <circle cx="808.96" cy="271.36" r="7.168"/>
+    <circle cx="860.16" cy="153.6" r="6.144"/>
+  </g>
+</svg>

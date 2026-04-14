@@ -1,0 +1,221 @@
+[
+  {
+    "bodyId": "mercury",
+    "sourceType": "official_observational",
+    "sourcePage": "https://science.nasa.gov/photojournal/full-global-mercury-mosaic/",
+    "rawAssetPath": "/Users/sd/Documents/太阳系/data/raw/planet-textures/mercury/PIA12397.tif",
+    "sourceFiles": {
+      "albedo": "/Users/sd/Documents/太阳系/data/raw/planet-textures/mercury/PIA12397.tif"
+    },
+    "nativeResolution": {
+      "albedo": {
+        "width": 1533,
+        "height": 767
+      }
+    },
+    "generatedOutputs": {
+      "albedo": [
+        "/Users/sd/Documents/太阳系/public/textures/planets/mercury/albedo-1k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/mercury/albedo-2k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/mercury/albedo-4k.png"
+      ]
+    }
+  },
+  {
+    "bodyId": "venus",
+    "sourceType": "official_observational",
+    "sourcePage": "https://science.nasa.gov/3d-resources/venus/",
+    "rawAssetPath": "/Users/sd/Documents/太阳系/data/raw/planet-textures/venus/Venus.tif",
+    "sourceFiles": {
+      "albedo": "/Users/sd/Documents/太阳系/data/raw/planet-textures/venus/Venus.tif"
+    },
+    "nativeResolution": {
+      "albedo": {
+        "width": 1440,
+        "height": 720
+      }
+    },
+    "generatedOutputs": {
+      "albedo": [
+        "/Users/sd/Documents/太阳系/public/textures/planets/venus/albedo-1k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/venus/albedo-2k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/venus/albedo-4k.png"
+      ]
+    }
+  },
+  {
+    "bodyId": "earth",
+    "sourceType": "official_model_texture",
+    "sourcePage": "https://science.nasa.gov/resource/earth-3d-model/",
+    "rawAssetPath": "/Users/sd/Documents/太阳系/data/raw/planet-textures/earth/Earth_1_12756.glb",
+    "sourceFiles": {
+      "albedo": "/Users/sd/Documents/太阳系/data/raw/planet-textures/earth/extracted/earth_diff.jpg.png"
+    },
+    "nativeResolution": {
+      "albedo": {
+        "width": 4096,
+        "height": 3072
+      }
+    },
+    "generatedOutputs": {
+      "albedo": [
+        "/Users/sd/Documents/太阳系/public/textures/planets/earth/albedo-1k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/earth/albedo-2k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/earth/albedo-4k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/earth/albedo-8k.png"
+      ]
+    }
+  },
+  {
+    "bodyId": "mars",
+    "sourceType": "official_observational",
+    "sourcePage": "https://science.nasa.gov/3d-resources/mars/",
+    "rawAssetPath": "/Users/sd/Documents/太阳系/data/raw/planet-textures/mars/Mars.tif",
+    "sourceFiles": {
+      "albedo": "/Users/sd/Documents/太阳系/data/raw/planet-textures/mars/Mars.tif"
+    },
+    "nativeResolution": {
+      "albedo": {
+        "width": 1440,
+        "height": 720
+      }
+    },
+    "generatedOutputs": {
+      "albedo": [
+        "/Users/sd/Documents/太阳系/public/textures/planets/mars/albedo-1k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/mars/albedo-2k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/mars/albedo-4k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/mars/albedo-8k.png"
+      ]
+    }
+  },
+  {
+    "bodyId": "jupiter",
+    "sourceType": "official_observational",
+    "sourcePage": "https://science.nasa.gov/photojournal/cassinis-best-maps-of-jupiter-cylindrical-map/",
+    "rawAssetPath": "/Users/sd/Documents/太阳系/data/raw/planet-textures/jupiter/PIA07782.tif",
+    "sourceFiles": {
+      "albedo": "/Users/sd/Documents/太阳系/data/raw/planet-textures/jupiter/PIA07782.tif"
+    },
+    "nativeResolution": {
+      "albedo": {
+        "width": 3601,
+        "height": 1801
+      }
+    },
+    "generatedOutputs": {
+      "albedo": [
+        "/Users/sd/Documents/太阳系/public/textures/planets/jupiter/albedo-1k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/jupiter/albedo-2k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/jupiter/albedo-4k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/jupiter/albedo-8k.png"
+      ]
+    }
+  },
+  {
+    "bodyId": "saturn",
+    "sourceType": "official_model_texture",
+    "sourcePage": "https://science.nasa.gov/resource/saturn-3d-model/",
+    "rawAssetPath": "/Users/sd/Documents/太阳系/data/raw/planet-textures/saturn/Saturn_1_120536.glb",
+    "sourceFiles": {
+      "albedo": "/Users/sd/Documents/太阳系/data/raw/planet-textures/saturn/extracted/saturn_diff.jpg.png",
+      "ringColor": "/Users/sd/Documents/太阳系/data/raw/planet-textures/saturn/extracted/saturn_rings_25sat_outterRings.png.png"
+    },
+    "nativeResolution": {
+      "albedo": {
+        "width": 4096,
+        "height": 3072
+      },
+      "ringColor": {
+        "width": 4096,
+        "height": 16
+      }
+    },
+    "generatedOutputs": {
+      "albedo": [
+        "/Users/sd/Documents/太阳系/public/textures/planets/saturn/albedo-1k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/saturn/albedo-2k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/saturn/albedo-4k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/saturn/albedo-8k.png"
+      ],
+      "ringColor": [
+        "/Users/sd/Documents/太阳系/public/textures/planets/saturn/ring-color-1k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/saturn/ring-color-2k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/saturn/ring-color-4k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/saturn/ring-color-8k.png"
+      ],
+      "ringAlpha": [
+        "/Users/sd/Documents/太阳系/public/textures/planets/saturn/ring-alpha-1k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/saturn/ring-alpha-2k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/saturn/ring-alpha-4k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/saturn/ring-alpha-8k.png"
+      ]
+    }
+  },
+  {
+    "bodyId": "uranus",
+    "sourceType": "official_model_texture",
+    "sourcePage": "https://science.nasa.gov/resource/uranus-3d-model/",
+    "rawAssetPath": "/Users/sd/Documents/太阳系/data/raw/planet-textures/uranus/Uranus_1_51118.glb",
+    "sourceFiles": {
+      "albedo": "/Users/sd/Documents/太阳系/data/raw/planet-textures/uranus/extracted/Image_0.png"
+    },
+    "nativeResolution": {
+      "albedo": {
+        "width": 1024,
+        "height": 512
+      }
+    },
+    "generatedOutputs": {
+      "albedo": [
+        "/Users/sd/Documents/太阳系/public/textures/planets/uranus/albedo-1k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/uranus/albedo-2k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/uranus/albedo-4k.png"
+      ]
+    }
+  },
+  {
+    "bodyId": "neptune",
+    "sourceType": "official_interpreted",
+    "sourcePage": "https://science.nasa.gov/3d-resources/neptune/",
+    "rawAssetPath": "/Users/sd/Documents/太阳系/data/raw/planet-textures/neptune/Neptune.tif",
+    "sourceFiles": {
+      "albedo": "/Users/sd/Documents/太阳系/data/raw/planet-textures/neptune/Neptune.tif"
+    },
+    "nativeResolution": {
+      "albedo": {
+        "width": 720,
+        "height": 360
+      }
+    },
+    "generatedOutputs": {
+      "albedo": [
+        "/Users/sd/Documents/太阳系/public/textures/planets/neptune/albedo-1k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/neptune/albedo-2k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/neptune/albedo-4k.png"
+      ]
+    }
+  },
+  {
+    "bodyId": "pluto",
+    "sourceType": "official_observational",
+    "sourcePage": "https://science.nasa.gov/photojournal/global-map-of-pluto/",
+    "rawAssetPath": "/Users/sd/Documents/太阳系/data/raw/planet-textures/pluto/PIA19858.jpg",
+    "sourceFiles": {
+      "albedo": "/Users/sd/Documents/太阳系/data/raw/planet-textures/pluto/PIA19858.jpg"
+    },
+    "nativeResolution": {
+      "albedo": {
+        "width": 18630,
+        "height": 9315
+      }
+    },
+    "generatedOutputs": {
+      "albedo": [
+        "/Users/sd/Documents/太阳系/public/textures/planets/pluto/albedo-1k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/pluto/albedo-2k.png",
+        "/Users/sd/Documents/太阳系/public/textures/planets/pluto/albedo-4k.png"
+      ]
+    }
+  }
+]

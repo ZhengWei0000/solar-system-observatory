@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="512" viewBox="0 0 1024 512" preserveAspectRatio="none" aria-label="uranus roughness texture">
+    <rect x="0" y="0.00" width="1024" height="103.40" fill="rgb(120,120,120)"/>
+  <rect x="0" y="102.40" width="1024" height="103.40" fill="rgb(133,133,133)"/>
+  <rect x="0" y="204.80" width="1024" height="103.40" fill="rgb(146,146,146)"/>
+  <rect x="0" y="307.20" width="1024" height="103.40" fill="rgb(159,159,159)"/>
+  <rect x="0" y="409.60" width="1024" height="103.40" fill="rgb(172,172,172)"/>
+</svg>

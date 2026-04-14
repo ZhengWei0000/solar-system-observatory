@@ -1,0 +1,427 @@
+[
+  {
+    "id": "system-jupiter",
+    "slug": "jupiter",
+    "name": "Jupiter System",
+    "chineseName": "木星系统",
+    "primaryBodyId": "jupiter",
+    "memberIds": [
+      "adrastea",
+      "aitne",
+      "amalthea",
+      "ananke",
+      "aoede",
+      "arche",
+      "autonoe",
+      "callirrhoe",
+      "callisto",
+      "carme",
+      "carpo",
+      "chaldene",
+      "cyllene",
+      "dia",
+      "eirene",
+      "elara",
+      "erinome",
+      "ersa",
+      "euanthe",
+      "eukelade",
+      "eupheme",
+      "euporie",
+      "europa",
+      "eurydome",
+      "ganymede",
+      "harpalyke",
+      "hegemone",
+      "helike",
+      "hermippe",
+      "herse",
+      "himalia",
+      "io",
+      "iocaste",
+      "isonoe",
+      "jupiter",
+      "kale",
+      "kallichore",
+      "kalyke",
+      "kore",
+      "leda",
+      "lysithea",
+      "megaclite",
+      "metis",
+      "orthosie",
+      "pandia",
+      "pasiphae",
+      "pasithee",
+      "philophrosyne",
+      "praxidike",
+      "sinope",
+      "sponde",
+      "taygete",
+      "thebe",
+      "thelxinoe",
+      "themisto",
+      "thyone",
+      "valetudo"
+    ],
+    "featuredBodyIds": [
+      "jupiter",
+      "io",
+      "europa",
+      "ganymede",
+      "callisto"
+    ],
+    "stats": {
+      "totalBodies": 57,
+      "naturalSatellites": 56,
+      "withHighFidelityShape": 0
+    },
+    "orbitCoverage": {
+      "sampledBodyIds": [],
+      "referenceOnlyBodyIds": [
+        "amalthea",
+        "callisto",
+        "europa",
+        "ganymede",
+        "io",
+        "jupiter"
+      ]
+    },
+    "description": {
+      "oneLine": "木星系统是研究共振、火山活动与冰卫星海洋的核心舞台。",
+      "short": "从伽利略卫星到不规则卫星群，木星系统层次丰富且教学价值极高。"
+    }
+  },
+  {
+    "id": "system-saturn",
+    "slug": "saturn",
+    "name": "Saturn System",
+    "chineseName": "土星系统",
+    "primaryBodyId": "saturn",
+    "memberIds": [
+      "aegaeon",
+      "aegir",
+      "albiorix",
+      "angrboda",
+      "anthe",
+      "atlas",
+      "bebhionn",
+      "beli",
+      "bergelmir",
+      "bestla",
+      "calypso",
+      "daphnis",
+      "dione",
+      "eggther",
+      "enceladus",
+      "epimetheus",
+      "erriapus",
+      "farbauti",
+      "fenrir",
+      "fornjot",
+      "gerd",
+      "greip",
+      "gridr",
+      "gunnlod",
+      "hati",
+      "helene",
+      "hyperion",
+      "hyrrokkin",
+      "iapetus",
+      "ijiraq",
+      "janus",
+      "jarnsaxa",
+      "kari",
+      "kiviuq",
+      "loge",
+      "methone",
+      "mimas",
+      "mundilfari",
+      "paaliaq",
+      "pallene",
+      "pan",
+      "pandora",
+      "phoebe",
+      "polydeuces",
+      "prometheus",
+      "rhea",
+      "saturn",
+      "siarnaq",
+      "skathi",
+      "skoll",
+      "skrymir",
+      "surtur",
+      "suttungr",
+      "tarqeq",
+      "tarvos",
+      "telesto",
+      "tethys",
+      "thiazzi",
+      "titan",
+      "ymir"
+    ],
+    "featuredBodyIds": [
+      "saturn",
+      "titan",
+      "enceladus",
+      "mimas",
+      "iapetus"
+    ],
+    "stats": {
+      "totalBodies": 60,
+      "naturalSatellites": 59,
+      "withHighFidelityShape": 0
+    },
+    "orbitCoverage": {
+      "sampledBodyIds": [],
+      "referenceOnlyBodyIds": [
+        "dione",
+        "enceladus",
+        "hyperion",
+        "iapetus",
+        "mimas",
+        "rhea",
+        "saturn",
+        "tethys",
+        "titan"
+      ]
+    },
+    "description": {
+      "oneLine": "土星系统把行星环、冰卫星与远距不规则卫星组合成最复杂的层级之一。",
+      "short": "MVP 会重点突出泰坦与恩克拉多斯，同时保留长尾卫星目录与轨道入口。"
+    }
+  },
+  {
+    "id": "system-uranus",
+    "slug": "uranus",
+    "name": "Uranus System",
+    "chineseName": "天王星系统",
+    "primaryBodyId": "uranus",
+    "memberIds": [
+      "ariel",
+      "belinda",
+      "bianca",
+      "caliban",
+      "cordelia",
+      "cressida",
+      "cupid",
+      "desdemona",
+      "ferdinand",
+      "francisco",
+      "juliet",
+      "mab",
+      "margaret",
+      "miranda",
+      "oberon",
+      "ophelia",
+      "perdita",
+      "portia",
+      "prospero",
+      "puck",
+      "rosalind",
+      "setebos",
+      "stephano",
+      "sycorax",
+      "titania",
+      "trinculo",
+      "umbriel",
+      "uranus"
+    ],
+    "featuredBodyIds": [
+      "uranus",
+      "titania",
+      "oberon",
+      "ariel",
+      "umbriel"
+    ],
+    "stats": {
+      "totalBodies": 28,
+      "naturalSatellites": 27,
+      "withHighFidelityShape": 0
+    },
+    "orbitCoverage": {
+      "sampledBodyIds": [],
+      "referenceOnlyBodyIds": [
+        "uranus"
+      ]
+    },
+    "description": {
+      "oneLine": "天王星系统适合观察倾斜自转轴与多层卫星家族的组合效应。",
+      "short": "主星极端倾角和莎士比亚主题命名共同构成了独特的系统辨识度。"
+    }
+  },
+  {
+    "id": "system-pluto",
+    "slug": "pluto",
+    "name": "Pluto System",
+    "chineseName": "冥王星系统",
+    "primaryBodyId": "pluto",
+    "memberIds": [
+      "charon",
+      "hydra",
+      "kerberos",
+      "nix",
+      "pluto",
+      "styx"
+    ],
+    "featuredBodyIds": [
+      "pluto",
+      "charon",
+      "nix",
+      "hydra"
+    ],
+    "stats": {
+      "totalBodies": 6,
+      "naturalSatellites": 5,
+      "withHighFidelityShape": 0
+    },
+    "orbitCoverage": {
+      "sampledBodyIds": [],
+      "referenceOnlyBodyIds": [
+        "charon"
+      ]
+    },
+    "description": {
+      "oneLine": "冥王星系统是理解矮行星系统与双体重心的最佳入口。",
+      "short": "冥王星与冥卫一质量比很高，其余小卫星则展示了紧凑系统的层级结构。"
+    }
+  },
+  {
+    "id": "system-mars",
+    "slug": "mars",
+    "name": "Mars System",
+    "chineseName": "火星系统",
+    "primaryBodyId": "mars",
+    "memberIds": [
+      "deimos",
+      "mars",
+      "phobos"
+    ],
+    "featuredBodyIds": [
+      "mars",
+      "phobos",
+      "deimos"
+    ],
+    "stats": {
+      "totalBodies": 3,
+      "naturalSatellites": 2,
+      "withHighFidelityShape": 0
+    },
+    "orbitCoverage": {
+      "sampledBodyIds": [],
+      "referenceOnlyBodyIds": [
+        "deimos",
+        "mars",
+        "phobos"
+      ]
+    },
+    "description": {
+      "oneLine": "火星系统由主星与两颗微小卫星组成，尺寸反差极强。",
+      "short": "火卫一和火卫二适合讲解捕获起源、潮汐演化与近行星卫星动力学。"
+    }
+  },
+  {
+    "id": "system-neptune",
+    "slug": "neptune",
+    "name": "Neptune System",
+    "chineseName": "海王星系统",
+    "primaryBodyId": "neptune",
+    "memberIds": [
+      "despina",
+      "galatea",
+      "halimede",
+      "hippocamp",
+      "laomedeia",
+      "larissa",
+      "naiad",
+      "neptune",
+      "nereid",
+      "neso",
+      "proteus",
+      "psamathe",
+      "sao",
+      "thalassa",
+      "triton"
+    ],
+    "featuredBodyIds": [
+      "neptune",
+      "triton",
+      "nereid",
+      "proteus"
+    ],
+    "stats": {
+      "totalBodies": 15,
+      "naturalSatellites": 14,
+      "withHighFidelityShape": 0
+    },
+    "orbitCoverage": {
+      "sampledBodyIds": [],
+      "referenceOnlyBodyIds": [
+        "neptune"
+      ]
+    },
+    "description": {
+      "oneLine": "海王星系统围绕逆行巨卫星海卫一展开，是捕获起源研究的关键案例。",
+      "short": "海王星系统成员不多，但动力学和起源问题都非常鲜明。"
+    }
+  },
+  {
+    "id": "system-earth",
+    "slug": "earth",
+    "name": "Earth System",
+    "chineseName": "地月系统",
+    "primaryBodyId": "earth",
+    "memberIds": [
+      "earth",
+      "moon"
+    ],
+    "featuredBodyIds": [
+      "earth",
+      "moon"
+    ],
+    "stats": {
+      "totalBodies": 2,
+      "naturalSatellites": 1,
+      "withHighFidelityShape": 0
+    },
+    "orbitCoverage": {
+      "sampledBodyIds": [],
+      "referenceOnlyBodyIds": [
+        "earth",
+        "moon"
+      ]
+    },
+    "description": {
+      "oneLine": "地球与月球构成观测与比较行星学最重要的近邻系统。",
+      "short": "地月系统以潮汐作用、双体角动量交换与人类直接探测史为核心价值。"
+    }
+  },
+  {
+    "id": "system-inner",
+    "slug": "inner",
+    "name": "Mercury System",
+    "chineseName": "水星系统",
+    "primaryBodyId": "mercury",
+    "memberIds": [
+      "mercury",
+      "venus"
+    ],
+    "featuredBodyIds": [],
+    "stats": {
+      "totalBodies": 2,
+      "naturalSatellites": 0,
+      "withHighFidelityShape": 0
+    },
+    "orbitCoverage": {
+      "sampledBodyIds": [],
+      "referenceOnlyBodyIds": [
+        "mercury",
+        "venus"
+      ]
+    },
+    "description": {
+      "oneLine": "水星是当前站点的结构化系统入口。",
+      "short": "系统页会同时展示主星、天然卫星、轨道类型说明与来源标签。"
+    }
+  }
+]

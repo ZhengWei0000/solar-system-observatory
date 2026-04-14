@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+:root {
+  --background: #030712;
+  --surface: rgba(10, 18, 35, 0.72);
+  --surface-strong: rgba(7, 12, 24, 0.92);
+  --border: rgba(164, 202, 254, 0.18);
+  --foreground: #e2e8f0;
+  --muted: #94a3b8;
+  --accent: #f59e0b;
+  --accent-cool: #22d3ee;
+  --accent-soft: #93c5fd;
+  --ring: rgba(245, 158, 11, 0.55);
+  --font-body: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Microsoft YaHei", sans-serif;
+  --font-display: "Avenir Next Condensed", "DIN Alternate", "Bank Gothic", "Orbitron", "Trebuchet MS", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(circle at top, rgba(34, 211, 238, 0.14), transparent 28%),
+    radial-gradient(circle at 80% 18%, rgba(245, 158, 11, 0.16), transparent 24%),
+    linear-gradient(180deg, #02040b 0%, #030712 34%, #06111f 100%);
+  color: var(--foreground);
+  font-family: var(--font-body), sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(148, 163, 184, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.03) 1px, transparent 1px);
+  background-size: 90px 90px;
+  mask-image: radial-gradient(circle at center, black, transparent 92%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(245, 158, 11, 0.3);
+  color: white;
+}
+
+.font-display {
+  font-family: var(--font-display), sans-serif;
+}
+
+.glass-panel {
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.72), rgba(10, 14, 26, 0.88));
+  backdrop-filter: blur(24px);
+  border: 1px solid var(--border);
+  box-shadow: 0 24px 80px rgba(2, 6, 23, 0.45);
+}
+
+.subtle-border {
+  border: 1px solid rgba(148, 163, 184, 0.15);
+}
+
+.section-shell {
+  margin-inline: auto;
+  width: min(1400px, calc(100% - 2rem));
+}
+
+.aurora-text {
+  background: linear-gradient(120deg, #e2e8f0 10%, #fcd34d 50%, #67e8f9 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

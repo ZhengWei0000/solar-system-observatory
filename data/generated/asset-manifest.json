@@ -1,0 +1,1045 @@
+[
+  {
+    "id": "callisto",
+    "slug": "callisto",
+    "officialName": "Callisto",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": null,
+    "bundledRasterMaps": null,
+    "fallbackMaps": null,
+    "bundledModelPath": null,
+    "qualityTier": null,
+    "maxDetailTier": null,
+    "textureFormat": null,
+    "mipTiers": [],
+    "postFxTier": null,
+    "textureSourceType": null,
+    "textureSourceNote": null,
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": []
+  },
+  {
+    "id": "charon",
+    "slug": "charon",
+    "officialName": "Charon",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": null,
+    "bundledRasterMaps": null,
+    "fallbackMaps": null,
+    "bundledModelPath": null,
+    "qualityTier": null,
+    "maxDetailTier": null,
+    "textureFormat": null,
+    "mipTiers": [],
+    "postFxTier": null,
+    "textureSourceType": null,
+    "textureSourceNote": null,
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": [
+      "https://science.nasa.gov/resource/charon-3d-model/"
+    ]
+  },
+  {
+    "id": "deimos",
+    "slug": "deimos",
+    "officialName": "Deimos",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": null,
+    "bundledRasterMaps": null,
+    "fallbackMaps": null,
+    "bundledModelPath": null,
+    "qualityTier": null,
+    "maxDetailTier": null,
+    "textureFormat": null,
+    "mipTiers": [],
+    "postFxTier": null,
+    "textureSourceType": null,
+    "textureSourceNote": null,
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": []
+  },
+  {
+    "id": "earth",
+    "slug": "earth",
+    "officialName": "Earth",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": "clouded_rocky",
+    "bundledRasterMaps": {
+      "overview": [
+        "/textures/planets/earth/albedo-2k.png",
+        "/textures/planets/earth/bump-2k.png",
+        "/textures/planets/earth/normal-2k.png",
+        "/textures/planets/earth/roughness-2k.png",
+        "/textures/planets/earth/clouds-2k.png",
+        "/textures/planets/earth/night-lights-2k.png",
+        "/textures/planets/earth/specular-2k.png"
+      ],
+      "system": [
+        "/textures/planets/earth/albedo-2k.png",
+        "/textures/planets/earth/bump-2k.png",
+        "/textures/planets/earth/normal-2k.png",
+        "/textures/planets/earth/roughness-2k.png",
+        "/textures/planets/earth/clouds-2k.png",
+        "/textures/planets/earth/night-lights-2k.png",
+        "/textures/planets/earth/specular-2k.png"
+      ],
+      "detail": [
+        "/textures/planets/earth/albedo-8k.png",
+        "/textures/planets/earth/bump-8k.png",
+        "/textures/planets/earth/normal-8k.png",
+        "/textures/planets/earth/roughness-8k.png",
+        "/textures/planets/earth/clouds-8k.png",
+        "/textures/planets/earth/night-lights-8k.png",
+        "/textures/planets/earth/specular-8k.png"
+      ]
+    },
+    "fallbackMaps": {
+      "overview": [
+        "/textures/planets/earth/albedo-2k.svg",
+        "/textures/planets/earth/bump-2k.svg",
+        "/textures/planets/earth/roughness-2k.svg",
+        "/textures/planets/earth/clouds-2k.svg",
+        "/textures/planets/earth/night-lights-2k.svg"
+      ],
+      "system": [
+        "/textures/planets/earth/albedo-2k.svg",
+        "/textures/planets/earth/bump-2k.svg",
+        "/textures/planets/earth/roughness-2k.svg",
+        "/textures/planets/earth/clouds-2k.svg",
+        "/textures/planets/earth/night-lights-2k.svg"
+      ],
+      "detail": [
+        "/textures/planets/earth/albedo-4k.svg",
+        "/textures/planets/earth/bump-4k.svg",
+        "/textures/planets/earth/roughness-4k.svg",
+        "/textures/planets/earth/clouds-4k.svg",
+        "/textures/planets/earth/night-lights-4k.svg"
+      ]
+    },
+    "bundledModelPath": null,
+    "qualityTier": {
+      "overview": "2k",
+      "system": "2k",
+      "detail": "8k"
+    },
+    "maxDetailTier": "8k",
+    "textureFormat": "png",
+    "mipTiers": [
+      "1k",
+      "2k",
+      "4k",
+      "8k"
+    ],
+    "postFxTier": "heroic",
+    "textureSourceType": "official_model_texture",
+    "textureSourceNote": "主 albedo 优先来自 NASA Earth 3D Model 官方包内嵌纹理；它是官方模型纹理，不宣称为原始观测全球测图。当前站内运行时使用的是从官方模型纹理生成的多级 PNG 导数。",
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [
+      "https://science.nasa.gov/resource/earth-3d-model/"
+    ],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": [
+      "https://science.nasa.gov/resource/earth-3d-model/",
+      "https://science.nasa.gov/resource/planet-mars-3d-model/",
+      "https://science.nasa.gov/resource/jupiter-3d-model/",
+      "https://science.nasa.gov/resource/saturn-3d-model/",
+      "https://science.nasa.gov/resource/pluto-3d-model/",
+      "https://visibleearth.nasa.gov/images/73605/february-blue-marble-next-generation-w-topography-and-bathymetry",
+      "https://science.nasa.gov/earth/"
+    ]
+  },
+  {
+    "id": "enceladus",
+    "slug": "enceladus",
+    "officialName": "Enceladus",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": null,
+    "bundledRasterMaps": null,
+    "fallbackMaps": null,
+    "bundledModelPath": null,
+    "qualityTier": null,
+    "maxDetailTier": null,
+    "textureFormat": null,
+    "mipTiers": [],
+    "postFxTier": null,
+    "textureSourceType": null,
+    "textureSourceNote": null,
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": [
+      "https://science.nasa.gov/resource/enceladus-3d-model/"
+    ]
+  },
+  {
+    "id": "europa",
+    "slug": "europa",
+    "officialName": "Europa",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": null,
+    "bundledRasterMaps": null,
+    "fallbackMaps": null,
+    "bundledModelPath": null,
+    "qualityTier": null,
+    "maxDetailTier": null,
+    "textureFormat": null,
+    "mipTiers": [],
+    "postFxTier": null,
+    "textureSourceType": null,
+    "textureSourceNote": null,
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": [
+      "https://science.nasa.gov/resource/europa-3d-model/"
+    ]
+  },
+  {
+    "id": "ganymede",
+    "slug": "ganymede",
+    "officialName": "Ganymede",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": null,
+    "bundledRasterMaps": null,
+    "fallbackMaps": null,
+    "bundledModelPath": null,
+    "qualityTier": null,
+    "maxDetailTier": null,
+    "textureFormat": null,
+    "mipTiers": [],
+    "postFxTier": null,
+    "textureSourceType": null,
+    "textureSourceNote": null,
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": []
+  },
+  {
+    "id": "io",
+    "slug": "io",
+    "officialName": "Io",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": null,
+    "bundledRasterMaps": null,
+    "fallbackMaps": null,
+    "bundledModelPath": null,
+    "qualityTier": null,
+    "maxDetailTier": null,
+    "textureFormat": null,
+    "mipTiers": [],
+    "postFxTier": null,
+    "textureSourceType": null,
+    "textureSourceNote": null,
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": []
+  },
+  {
+    "id": "jupiter",
+    "slug": "jupiter",
+    "officialName": "Jupiter",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": "gas_giant",
+    "bundledRasterMaps": {
+      "overview": [
+        "/textures/planets/jupiter/albedo-2k.png",
+        "/textures/planets/jupiter/roughness-2k.png",
+        "/textures/planets/jupiter/emissive-2k.png",
+        "/textures/planets/jupiter/clouds-2k.png"
+      ],
+      "system": [
+        "/textures/planets/jupiter/albedo-2k.png",
+        "/textures/planets/jupiter/roughness-2k.png",
+        "/textures/planets/jupiter/emissive-2k.png",
+        "/textures/planets/jupiter/clouds-2k.png"
+      ],
+      "detail": [
+        "/textures/planets/jupiter/albedo-8k.png",
+        "/textures/planets/jupiter/roughness-8k.png",
+        "/textures/planets/jupiter/emissive-8k.png",
+        "/textures/planets/jupiter/clouds-8k.png"
+      ]
+    },
+    "fallbackMaps": {
+      "overview": [
+        "/textures/planets/jupiter/albedo-2k.svg",
+        "/textures/planets/jupiter/roughness-2k.svg",
+        "/textures/planets/jupiter/clouds-2k.svg"
+      ],
+      "system": [
+        "/textures/planets/jupiter/albedo-2k.svg",
+        "/textures/planets/jupiter/roughness-2k.svg",
+        "/textures/planets/jupiter/clouds-2k.svg"
+      ],
+      "detail": [
+        "/textures/planets/jupiter/albedo-4k.svg",
+        "/textures/planets/jupiter/roughness-4k.svg",
+        "/textures/planets/jupiter/clouds-4k.svg"
+      ]
+    },
+    "bundledModelPath": null,
+    "qualityTier": {
+      "overview": "2k",
+      "system": "2k",
+      "detail": "8k"
+    },
+    "maxDetailTier": "8k",
+    "textureFormat": "png",
+    "mipTiers": [
+      "1k",
+      "2k",
+      "4k",
+      "8k"
+    ],
+    "postFxTier": "heroic",
+    "textureSourceType": "official_observational",
+    "textureSourceNote": "主 albedo 已切换为 NASA Photojournal 发布的 Cassini 木星柱状投影全球图，本地运行时使用的是从官方 TIFF 生成的多级 PNG 导数。",
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [
+      "https://science.nasa.gov/photojournal/cassinis-best-maps-of-jupiter-cylindrical-map/"
+    ],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": [
+      "https://science.nasa.gov/resource/earth-3d-model/",
+      "https://science.nasa.gov/resource/planet-mars-3d-model/",
+      "https://science.nasa.gov/resource/jupiter-3d-model/",
+      "https://science.nasa.gov/resource/saturn-3d-model/",
+      "https://science.nasa.gov/resource/pluto-3d-model/",
+      "https://science.nasa.gov/photojournal/cassinis-best-maps-of-jupiter-cylindrical-map/",
+      "https://science.nasa.gov/jupiter/"
+    ]
+  },
+  {
+    "id": "mars",
+    "slug": "mars",
+    "officialName": "Mars",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": "rocky",
+    "bundledRasterMaps": {
+      "overview": [
+        "/textures/planets/mars/albedo-2k.png",
+        "/textures/planets/mars/bump-2k.png",
+        "/textures/planets/mars/normal-2k.png",
+        "/textures/planets/mars/roughness-2k.png"
+      ],
+      "system": [
+        "/textures/planets/mars/albedo-2k.png",
+        "/textures/planets/mars/bump-2k.png",
+        "/textures/planets/mars/normal-2k.png",
+        "/textures/planets/mars/roughness-2k.png"
+      ],
+      "detail": [
+        "/textures/planets/mars/albedo-8k.png",
+        "/textures/planets/mars/bump-8k.png",
+        "/textures/planets/mars/normal-8k.png",
+        "/textures/planets/mars/roughness-8k.png"
+      ]
+    },
+    "fallbackMaps": {
+      "overview": [
+        "/textures/planets/mars/albedo-2k.svg",
+        "/textures/planets/mars/bump-2k.svg",
+        "/textures/planets/mars/roughness-2k.svg"
+      ],
+      "system": [
+        "/textures/planets/mars/albedo-2k.svg",
+        "/textures/planets/mars/bump-2k.svg",
+        "/textures/planets/mars/roughness-2k.svg"
+      ],
+      "detail": [
+        "/textures/planets/mars/albedo-4k.svg",
+        "/textures/planets/mars/bump-4k.svg",
+        "/textures/planets/mars/roughness-4k.svg"
+      ]
+    },
+    "bundledModelPath": null,
+    "qualityTier": {
+      "overview": "2k",
+      "system": "2k",
+      "detail": "8k"
+    },
+    "maxDetailTier": "8k",
+    "textureFormat": "png",
+    "mipTiers": [
+      "1k",
+      "2k",
+      "4k",
+      "8k"
+    ],
+    "postFxTier": "heroic",
+    "textureSourceType": "official_observational",
+    "textureSourceNote": "主 albedo 已切换为 NASA 3D Resources 发布的 Mars 全球纹理，页面说明标注其来自 Viking 图像并经 USGS 处理。",
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [
+      "https://science.nasa.gov/3d-resources/mars/"
+    ],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": [
+      "https://science.nasa.gov/resource/earth-3d-model/",
+      "https://science.nasa.gov/resource/planet-mars-3d-model/",
+      "https://science.nasa.gov/resource/jupiter-3d-model/",
+      "https://science.nasa.gov/resource/saturn-3d-model/",
+      "https://science.nasa.gov/resource/pluto-3d-model/",
+      "https://science.nasa.gov/3d-resources/mars/",
+      "https://science.nasa.gov/mars/"
+    ]
+  },
+  {
+    "id": "mercury",
+    "slug": "mercury",
+    "officialName": "Mercury",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": "rocky",
+    "bundledRasterMaps": {
+      "overview": [
+        "/textures/planets/mercury/albedo-2k.png",
+        "/textures/planets/mercury/bump-2k.png",
+        "/textures/planets/mercury/normal-2k.png",
+        "/textures/planets/mercury/roughness-2k.png"
+      ],
+      "system": [
+        "/textures/planets/mercury/albedo-2k.png",
+        "/textures/planets/mercury/bump-2k.png",
+        "/textures/planets/mercury/normal-2k.png",
+        "/textures/planets/mercury/roughness-2k.png"
+      ],
+      "detail": [
+        "/textures/planets/mercury/albedo-4k.png",
+        "/textures/planets/mercury/bump-4k.png",
+        "/textures/planets/mercury/normal-4k.png",
+        "/textures/planets/mercury/roughness-4k.png"
+      ]
+    },
+    "fallbackMaps": {
+      "overview": [
+        "/textures/planets/mercury/albedo-2k.svg",
+        "/textures/planets/mercury/bump-2k.svg",
+        "/textures/planets/mercury/roughness-2k.svg"
+      ],
+      "system": [
+        "/textures/planets/mercury/albedo-2k.svg",
+        "/textures/planets/mercury/bump-2k.svg",
+        "/textures/planets/mercury/roughness-2k.svg"
+      ],
+      "detail": [
+        "/textures/planets/mercury/albedo-4k.svg",
+        "/textures/planets/mercury/bump-4k.svg",
+        "/textures/planets/mercury/roughness-4k.svg"
+      ]
+    },
+    "bundledModelPath": null,
+    "qualityTier": {
+      "overview": "2k",
+      "system": "2k",
+      "detail": "4k"
+    },
+    "maxDetailTier": "4k",
+    "textureFormat": "png",
+    "mipTiers": [
+      "1k",
+      "2k",
+      "4k"
+    ],
+    "postFxTier": "cinematic",
+    "textureSourceType": "official_observational",
+    "textureSourceNote": "主 albedo 已切换为 NASA Photojournal 发布的 MESSENGER / Mariner 全局水星拼接图，本地仅生成多级 PNG 导数；更高层级可能是从官方原图再采样得到。",
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [
+      "https://science.nasa.gov/photojournal/full-global-mercury-mosaic/"
+    ],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": [
+      "https://science.nasa.gov/resource/earth-3d-model/",
+      "https://science.nasa.gov/resource/planet-mars-3d-model/",
+      "https://science.nasa.gov/resource/jupiter-3d-model/",
+      "https://science.nasa.gov/resource/saturn-3d-model/",
+      "https://science.nasa.gov/resource/pluto-3d-model/",
+      "https://science.nasa.gov/photojournal/full-global-mercury-mosaic/",
+      "https://science.nasa.gov/mercury/"
+    ]
+  },
+  {
+    "id": "moon",
+    "slug": "moon",
+    "officialName": "Moon",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": null,
+    "bundledRasterMaps": null,
+    "fallbackMaps": null,
+    "bundledModelPath": null,
+    "qualityTier": null,
+    "maxDetailTier": null,
+    "textureFormat": null,
+    "mipTiers": [],
+    "postFxTier": null,
+    "textureSourceType": null,
+    "textureSourceNote": null,
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": [
+      "https://science.nasa.gov/moon-3d/"
+    ]
+  },
+  {
+    "id": "neptune",
+    "slug": "neptune",
+    "officialName": "Neptune",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": "ice_giant",
+    "bundledRasterMaps": {
+      "overview": [
+        "/textures/planets/neptune/albedo-2k.png",
+        "/textures/planets/neptune/roughness-2k.png",
+        "/textures/planets/neptune/emissive-2k.png",
+        "/textures/planets/neptune/clouds-2k.png"
+      ],
+      "system": [
+        "/textures/planets/neptune/albedo-2k.png",
+        "/textures/planets/neptune/roughness-2k.png",
+        "/textures/planets/neptune/emissive-2k.png",
+        "/textures/planets/neptune/clouds-2k.png"
+      ],
+      "detail": [
+        "/textures/planets/neptune/albedo-4k.png",
+        "/textures/planets/neptune/roughness-4k.png",
+        "/textures/planets/neptune/emissive-4k.png",
+        "/textures/planets/neptune/clouds-4k.png"
+      ]
+    },
+    "fallbackMaps": {
+      "overview": [
+        "/textures/planets/neptune/albedo-2k.svg",
+        "/textures/planets/neptune/roughness-2k.svg",
+        "/textures/planets/neptune/clouds-2k.svg"
+      ],
+      "system": [
+        "/textures/planets/neptune/albedo-2k.svg",
+        "/textures/planets/neptune/roughness-2k.svg",
+        "/textures/planets/neptune/clouds-2k.svg"
+      ],
+      "detail": [
+        "/textures/planets/neptune/albedo-4k.svg",
+        "/textures/planets/neptune/roughness-4k.svg",
+        "/textures/planets/neptune/clouds-4k.svg"
+      ]
+    },
+    "bundledModelPath": null,
+    "qualityTier": {
+      "overview": "2k",
+      "system": "2k",
+      "detail": "4k"
+    },
+    "maxDetailTier": "4k",
+    "textureFormat": "png",
+    "mipTiers": [
+      "1k",
+      "2k",
+      "4k"
+    ],
+    "postFxTier": "cinematic",
+    "textureSourceType": "official_interpreted",
+    "textureSourceNote": "主 albedo 已切换为 NASA 3D Resources 的 Neptune 官方纹理页资源；页面说明明确标为基于 Don Davis / JPL-Caltech 的官方解释型纹理，而非完整观测全球底图。",
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [
+      "https://science.nasa.gov/3d-resources/neptune/"
+    ],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": [
+      "https://science.nasa.gov/resource/earth-3d-model/",
+      "https://science.nasa.gov/resource/planet-mars-3d-model/",
+      "https://science.nasa.gov/resource/jupiter-3d-model/",
+      "https://science.nasa.gov/resource/saturn-3d-model/",
+      "https://science.nasa.gov/resource/pluto-3d-model/",
+      "https://science.nasa.gov/3d-resources/neptune/",
+      "https://science.nasa.gov/neptune/"
+    ]
+  },
+  {
+    "id": "phobos",
+    "slug": "phobos",
+    "officialName": "Phobos",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": null,
+    "bundledRasterMaps": null,
+    "fallbackMaps": null,
+    "bundledModelPath": null,
+    "qualityTier": null,
+    "maxDetailTier": null,
+    "textureFormat": null,
+    "mipTiers": [],
+    "postFxTier": null,
+    "textureSourceType": null,
+    "textureSourceNote": null,
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": [
+      "https://science.nasa.gov/resource/phobos-mars-moon-3d-model/"
+    ]
+  },
+  {
+    "id": "pluto",
+    "slug": "pluto",
+    "officialName": "Pluto",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": "dwarf_ice",
+    "bundledRasterMaps": {
+      "overview": [
+        "/textures/planets/pluto/albedo-2k.png",
+        "/textures/planets/pluto/bump-2k.png",
+        "/textures/planets/pluto/normal-2k.png",
+        "/textures/planets/pluto/roughness-2k.png"
+      ],
+      "system": [
+        "/textures/planets/pluto/albedo-2k.png",
+        "/textures/planets/pluto/bump-2k.png",
+        "/textures/planets/pluto/normal-2k.png",
+        "/textures/planets/pluto/roughness-2k.png"
+      ],
+      "detail": [
+        "/textures/planets/pluto/albedo-4k.png",
+        "/textures/planets/pluto/bump-4k.png",
+        "/textures/planets/pluto/normal-4k.png",
+        "/textures/planets/pluto/roughness-4k.png"
+      ]
+    },
+    "fallbackMaps": {
+      "overview": [
+        "/textures/planets/pluto/albedo-2k.svg",
+        "/textures/planets/pluto/bump-2k.svg",
+        "/textures/planets/pluto/roughness-2k.svg"
+      ],
+      "system": [
+        "/textures/planets/pluto/albedo-2k.svg",
+        "/textures/planets/pluto/bump-2k.svg",
+        "/textures/planets/pluto/roughness-2k.svg"
+      ],
+      "detail": [
+        "/textures/planets/pluto/albedo-4k.svg",
+        "/textures/planets/pluto/bump-4k.svg",
+        "/textures/planets/pluto/roughness-4k.svg"
+      ]
+    },
+    "bundledModelPath": null,
+    "qualityTier": {
+      "overview": "2k",
+      "system": "2k",
+      "detail": "4k"
+    },
+    "maxDetailTier": "4k",
+    "textureFormat": "png",
+    "mipTiers": [
+      "1k",
+      "2k",
+      "4k"
+    ],
+    "postFxTier": "cinematic",
+    "textureSourceType": "official_observational",
+    "textureSourceNote": "主 albedo 已切换为 NASA Photojournal 的 New Horizons Pluto 全球图，本地只生成多级 PNG 导数并保留原始参考页链接。",
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [
+      "https://science.nasa.gov/photojournal/global-map-of-pluto/"
+    ],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": [
+      "https://science.nasa.gov/resource/earth-3d-model/",
+      "https://science.nasa.gov/resource/planet-mars-3d-model/",
+      "https://science.nasa.gov/resource/jupiter-3d-model/",
+      "https://science.nasa.gov/resource/saturn-3d-model/",
+      "https://science.nasa.gov/resource/pluto-3d-model/",
+      "https://science.nasa.gov/photojournal/global-map-of-pluto/",
+      "https://science.nasa.gov/dwarf-planets/pluto/"
+    ]
+  },
+  {
+    "id": "saturn",
+    "slug": "saturn",
+    "officialName": "Saturn",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": "gas_giant",
+    "bundledRasterMaps": {
+      "overview": [
+        "/textures/planets/saturn/albedo-2k.png",
+        "/textures/planets/saturn/roughness-2k.png",
+        "/textures/planets/saturn/clouds-2k.png",
+        "/textures/planets/saturn/ring-color-2k.png",
+        "/textures/planets/saturn/ring-alpha-2k.png",
+        "/textures/planets/saturn/ring-roughness-2k.png"
+      ],
+      "system": [
+        "/textures/planets/saturn/albedo-2k.png",
+        "/textures/planets/saturn/roughness-2k.png",
+        "/textures/planets/saturn/clouds-2k.png",
+        "/textures/planets/saturn/ring-color-2k.png",
+        "/textures/planets/saturn/ring-alpha-2k.png",
+        "/textures/planets/saturn/ring-roughness-2k.png"
+      ],
+      "detail": [
+        "/textures/planets/saturn/albedo-8k.png",
+        "/textures/planets/saturn/roughness-8k.png",
+        "/textures/planets/saturn/clouds-8k.png",
+        "/textures/planets/saturn/ring-color-8k.png",
+        "/textures/planets/saturn/ring-alpha-8k.png",
+        "/textures/planets/saturn/ring-roughness-8k.png"
+      ]
+    },
+    "fallbackMaps": {
+      "overview": [
+        "/textures/planets/saturn/albedo-2k.svg",
+        "/textures/planets/saturn/roughness-2k.svg",
+        "/textures/planets/saturn/clouds-2k.svg",
+        "/textures/planets/saturn/ring-color-2k.svg",
+        "/textures/planets/saturn/ring-alpha-2k.svg"
+      ],
+      "system": [
+        "/textures/planets/saturn/albedo-2k.svg",
+        "/textures/planets/saturn/roughness-2k.svg",
+        "/textures/planets/saturn/clouds-2k.svg",
+        "/textures/planets/saturn/ring-color-2k.svg",
+        "/textures/planets/saturn/ring-alpha-2k.svg"
+      ],
+      "detail": [
+        "/textures/planets/saturn/albedo-4k.svg",
+        "/textures/planets/saturn/roughness-4k.svg",
+        "/textures/planets/saturn/clouds-4k.svg",
+        "/textures/planets/saturn/ring-color-4k.svg",
+        "/textures/planets/saturn/ring-alpha-4k.svg"
+      ]
+    },
+    "bundledModelPath": null,
+    "qualityTier": {
+      "overview": "2k",
+      "system": "2k",
+      "detail": "8k"
+    },
+    "maxDetailTier": "8k",
+    "textureFormat": "png",
+    "mipTiers": [
+      "1k",
+      "2k",
+      "4k",
+      "8k"
+    ],
+    "postFxTier": "heroic",
+    "textureSourceType": "official_model_texture",
+    "textureSourceNote": "主 albedo 与环面颜色优先来自 NASA Saturn 3D Model 官方包内嵌纹理；这属于官方模型纹理，不等同于完整观测全球底图。",
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [
+      "https://science.nasa.gov/resource/saturn-3d-model/"
+    ],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": [
+      "https://science.nasa.gov/resource/earth-3d-model/",
+      "https://science.nasa.gov/resource/planet-mars-3d-model/",
+      "https://science.nasa.gov/resource/jupiter-3d-model/",
+      "https://science.nasa.gov/resource/saturn-3d-model/",
+      "https://science.nasa.gov/resource/pluto-3d-model/",
+      "https://science.nasa.gov/saturn/"
+    ]
+  },
+  {
+    "id": "sun",
+    "slug": "sun",
+    "officialName": "Sun",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": "star",
+    "bundledRasterMaps": {
+      "overview": [],
+      "system": [],
+      "detail": []
+    },
+    "fallbackMaps": {
+      "overview": [],
+      "system": [],
+      "detail": []
+    },
+    "bundledModelPath": null,
+    "qualityTier": {
+      "overview": "2k",
+      "system": "2k",
+      "detail": "4k"
+    },
+    "maxDetailTier": "4k",
+    "textureFormat": "png",
+    "mipTiers": [
+      "1k",
+      "2k",
+      "4k"
+    ],
+    "postFxTier": "heroic",
+    "textureSourceType": "generated_fallback",
+    "textureSourceNote": "太阳当前仍使用站内程序化恒星材质与 SDO / NASA 太阳参考色带进行离线着色；它不是行星表面栅格贴图。",
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [
+      "https://science.nasa.gov/sun/",
+      "https://science.nasa.gov/mission/solar-dynamics-observatory/"
+    ],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": [
+      "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "https://science.nasa.gov/sun/",
+      "https://science.nasa.gov/mission/solar-dynamics-observatory/"
+    ]
+  },
+  {
+    "id": "titan",
+    "slug": "titan",
+    "officialName": "Titan",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": null,
+    "bundledRasterMaps": null,
+    "fallbackMaps": null,
+    "bundledModelPath": null,
+    "qualityTier": null,
+    "maxDetailTier": null,
+    "textureFormat": null,
+    "mipTiers": [],
+    "postFxTier": null,
+    "textureSourceType": null,
+    "textureSourceNote": null,
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": [
+      "https://science.nasa.gov/resource/titan-3d-model/"
+    ]
+  },
+  {
+    "id": "triton",
+    "slug": "triton",
+    "officialName": "Triton",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": null,
+    "bundledRasterMaps": null,
+    "fallbackMaps": null,
+    "bundledModelPath": null,
+    "qualityTier": null,
+    "maxDetailTier": null,
+    "textureFormat": null,
+    "mipTiers": [],
+    "postFxTier": null,
+    "textureSourceType": null,
+    "textureSourceNote": null,
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": []
+  },
+  {
+    "id": "uranus",
+    "slug": "uranus",
+    "officialName": "Uranus",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": "ice_giant",
+    "bundledRasterMaps": {
+      "overview": [
+        "/textures/planets/uranus/albedo-2k.png",
+        "/textures/planets/uranus/roughness-2k.png",
+        "/textures/planets/uranus/clouds-2k.png"
+      ],
+      "system": [
+        "/textures/planets/uranus/albedo-2k.png",
+        "/textures/planets/uranus/roughness-2k.png",
+        "/textures/planets/uranus/clouds-2k.png"
+      ],
+      "detail": [
+        "/textures/planets/uranus/albedo-4k.png",
+        "/textures/planets/uranus/roughness-4k.png",
+        "/textures/planets/uranus/clouds-4k.png"
+      ]
+    },
+    "fallbackMaps": {
+      "overview": [
+        "/textures/planets/uranus/albedo-2k.svg",
+        "/textures/planets/uranus/roughness-2k.svg",
+        "/textures/planets/uranus/clouds-2k.svg"
+      ],
+      "system": [
+        "/textures/planets/uranus/albedo-2k.svg",
+        "/textures/planets/uranus/roughness-2k.svg",
+        "/textures/planets/uranus/clouds-2k.svg"
+      ],
+      "detail": [
+        "/textures/planets/uranus/albedo-4k.svg",
+        "/textures/planets/uranus/roughness-4k.svg",
+        "/textures/planets/uranus/clouds-4k.svg"
+      ]
+    },
+    "bundledModelPath": null,
+    "qualityTier": {
+      "overview": "2k",
+      "system": "2k",
+      "detail": "4k"
+    },
+    "maxDetailTier": "4k",
+    "textureFormat": "png",
+    "mipTiers": [
+      "1k",
+      "2k",
+      "4k"
+    ],
+    "postFxTier": "cinematic",
+    "textureSourceType": "official_model_texture",
+    "textureSourceNote": "主 albedo 优先来自 NASA Uranus 3D Model 官方包内嵌纹理；它是官方模型纹理，不宣称为完整观测全球测图。",
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [
+      "https://science.nasa.gov/resource/uranus-3d-model/"
+    ],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": [
+      "https://science.nasa.gov/resource/earth-3d-model/",
+      "https://science.nasa.gov/resource/planet-mars-3d-model/",
+      "https://science.nasa.gov/resource/jupiter-3d-model/",
+      "https://science.nasa.gov/resource/saturn-3d-model/",
+      "https://science.nasa.gov/resource/pluto-3d-model/",
+      "https://science.nasa.gov/resource/uranus-3d-model/",
+      "https://science.nasa.gov/uranus/"
+    ]
+  },
+  {
+    "id": "venus",
+    "slug": "venus",
+    "officialName": "Venus",
+    "currentModelGrade": "B",
+    "currentModelPath": null,
+    "currentTexturePath": null,
+    "currentHasBundledHighFidelityAsset": false,
+    "renderMode": "clouded_rocky",
+    "bundledRasterMaps": {
+      "overview": [
+        "/textures/planets/venus/albedo-2k.png",
+        "/textures/planets/venus/roughness-2k.png",
+        "/textures/planets/venus/emissive-2k.png",
+        "/textures/planets/venus/clouds-2k.png"
+      ],
+      "system": [
+        "/textures/planets/venus/albedo-2k.png",
+        "/textures/planets/venus/roughness-2k.png",
+        "/textures/planets/venus/emissive-2k.png",
+        "/textures/planets/venus/clouds-2k.png"
+      ],
+      "detail": [
+        "/textures/planets/venus/albedo-4k.png",
+        "/textures/planets/venus/roughness-4k.png",
+        "/textures/planets/venus/emissive-4k.png",
+        "/textures/planets/venus/clouds-4k.png"
+      ]
+    },
+    "fallbackMaps": {
+      "overview": [
+        "/textures/planets/venus/albedo-2k.svg",
+        "/textures/planets/venus/roughness-2k.svg",
+        "/textures/planets/venus/clouds-2k.svg"
+      ],
+      "system": [
+        "/textures/planets/venus/albedo-2k.svg",
+        "/textures/planets/venus/roughness-2k.svg",
+        "/textures/planets/venus/clouds-2k.svg"
+      ],
+      "detail": [
+        "/textures/planets/venus/albedo-4k.svg",
+        "/textures/planets/venus/roughness-4k.svg",
+        "/textures/planets/venus/clouds-4k.svg"
+      ]
+    },
+    "bundledModelPath": null,
+    "qualityTier": {
+      "overview": "2k",
+      "system": "2k",
+      "detail": "4k"
+    },
+    "maxDetailTier": "4k",
+    "textureFormat": "png",
+    "mipTiers": [
+      "1k",
+      "2k",
+      "4k"
+    ],
+    "postFxTier": "cinematic",
+    "textureSourceType": "official_observational",
+    "textureSourceNote": "主 albedo 已切换为 NASA 3D Resources 发布的 Venus 全球纹理，页面说明明确标注其来自 Magellan RADAR 及 JPL/Caltech 行星地图数据库。",
+    "usesOfficialMesh": false,
+    "textureSourceLinks": [
+      "https://science.nasa.gov/3d-resources/venus/"
+    ],
+    "shapeSource": "Current local bundle uses a scientific approximation. Official NASA/PDS shape sources are referenced for future ingestion.",
+    "sourceLinks": [
+      "https://science.nasa.gov/resource/earth-3d-model/",
+      "https://science.nasa.gov/resource/planet-mars-3d-model/",
+      "https://science.nasa.gov/resource/jupiter-3d-model/",
+      "https://science.nasa.gov/resource/saturn-3d-model/",
+      "https://science.nasa.gov/resource/pluto-3d-model/",
+      "https://science.nasa.gov/3d-resources/venus/",
+      "https://science.nasa.gov/venus/"
+    ]
+  }
+]

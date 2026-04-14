@@ -1,0 +1,531 @@
+[
+  {
+    "bodyId": "sun",
+    "renderMode": "star",
+    "textureFormat": "png",
+    "textureSourceType": "generated_fallback",
+    "textureSourceNote": "太阳当前仍使用站内程序化恒星材质与 SDO / NASA 太阳参考色带进行离线着色；它不是行星表面栅格贴图。",
+    "supportMapSourceNote": "星冕、辉光和表面对流质感来自站内程序化着色层。",
+    "mipTiers": ["1k", "2k", "4k"],
+    "maps": {},
+    "fallbackMaps": {},
+    "detailMaps": {},
+    "specularMap": null,
+    "ringRoughness": null,
+    "quality": {
+      "overview": "2k",
+      "system": "2k",
+      "detail": "4k"
+    },
+    "material": {
+      "roughness": 0.16,
+      "metalness": 0,
+      "normalScale": 0,
+      "bumpScale": 0,
+      "emissiveIntensity": 2.4,
+      "atmosphereColor": "#f59e0b",
+      "atmosphereIntensity": 1.9,
+      "fresnelPower": 2.15,
+      "cloudSpeed": 0.018
+    },
+    "geometry": {
+      "useOfficialMesh": false,
+      "modelPath": null,
+      "axialTiltDeg": 7.25
+    },
+    "postFxTier": "heroic",
+    "textureSources": [
+      "https://science.nasa.gov/sun/",
+      "https://science.nasa.gov/mission/solar-dynamics-observatory/"
+    ],
+    "sourceLinks": [
+      "https://science.nasa.gov/sun/",
+      "https://science.nasa.gov/mission/solar-dynamics-observatory/"
+    ]
+  },
+  {
+    "bodyId": "mercury",
+    "renderMode": "rocky",
+    "textureFormat": "png",
+    "textureSourceType": "official_observational",
+    "textureSourceNote": "主 albedo 已切换为 NASA Photojournal 发布的 MESSENGER / Mariner 全局水星拼接图，本地仅生成多级 PNG 导数；更高层级可能是从官方原图再采样得到。",
+    "supportMapSourceNote": "bump / normal / roughness 仍为基于官方底图细节生成的站内辅助贴图，不冒充官方原始产品。",
+    "mipTiers": ["1k", "2k", "4k"],
+    "maps": {
+      "albedo": "/textures/planets/mercury/albedo-{quality}.png",
+      "bump": "/textures/planets/mercury/bump-{quality}.png",
+      "normal": "/textures/planets/mercury/normal-{quality}.png",
+      "roughness": "/textures/planets/mercury/roughness-{quality}.png"
+    },
+    "fallbackMaps": {
+      "albedo": "/textures/planets/mercury/albedo-{quality}.svg",
+      "bump": "/textures/planets/mercury/bump-{quality}.svg",
+      "roughness": "/textures/planets/mercury/roughness-{quality}.svg"
+    },
+    "detailMaps": {
+      "normal": "/textures/planets/mercury/normal-{quality}.png"
+    },
+    "specularMap": null,
+    "ringRoughness": null,
+    "quality": {
+      "overview": "2k",
+      "system": "2k",
+      "detail": "4k"
+    },
+    "material": {
+      "roughness": 0.92,
+      "metalness": 0.03,
+      "normalScale": 0.38,
+      "bumpScale": 0.24,
+      "emissiveIntensity": 0,
+      "atmosphereColor": "#d6d1cb",
+      "atmosphereIntensity": 0.07,
+      "fresnelPower": 2.7,
+      "cloudSpeed": 0
+    },
+    "geometry": {
+      "useOfficialMesh": false,
+      "modelPath": null,
+      "axialTiltDeg": 0.03
+    },
+    "postFxTier": "cinematic",
+    "textureSources": [
+      "https://science.nasa.gov/photojournal/full-global-mercury-mosaic/"
+    ],
+    "sourceLinks": [
+      "https://science.nasa.gov/photojournal/full-global-mercury-mosaic/",
+      "https://science.nasa.gov/mercury/"
+    ]
+  },
+  {
+    "bodyId": "venus",
+    "renderMode": "clouded_rocky",
+    "textureFormat": "png",
+    "textureSourceType": "official_observational",
+    "textureSourceNote": "主 albedo 已切换为 NASA 3D Resources 发布的 Venus 全球纹理，页面说明明确标注其来自 Magellan RADAR 及 JPL/Caltech 行星地图数据库。",
+    "supportMapSourceNote": "云层、roughness 和少量 emissive 仍为站内辅助贴图，用于提升体积感，不表示存在独立官方云层贴图包。",
+    "mipTiers": ["1k", "2k", "4k"],
+    "maps": {
+      "albedo": "/textures/planets/venus/albedo-{quality}.png",
+      "clouds": "/textures/planets/venus/clouds-{quality}.png",
+      "roughness": "/textures/planets/venus/roughness-{quality}.png",
+      "emissive": "/textures/planets/venus/emissive-{quality}.png"
+    },
+    "fallbackMaps": {
+      "albedo": "/textures/planets/venus/albedo-{quality}.svg",
+      "clouds": "/textures/planets/venus/clouds-{quality}.svg",
+      "roughness": "/textures/planets/venus/roughness-{quality}.svg"
+    },
+    "detailMaps": {},
+    "specularMap": null,
+    "ringRoughness": null,
+    "quality": {
+      "overview": "2k",
+      "system": "2k",
+      "detail": "4k"
+    },
+    "material": {
+      "roughness": 0.86,
+      "metalness": 0.01,
+      "normalScale": 0.04,
+      "bumpScale": 0.06,
+      "emissiveIntensity": 0.08,
+      "atmosphereColor": "#ffd79a",
+      "atmosphereIntensity": 0.78,
+      "fresnelPower": 2.2,
+      "cloudSpeed": 0.01
+    },
+    "geometry": {
+      "useOfficialMesh": false,
+      "modelPath": null,
+      "axialTiltDeg": 177.36
+    },
+    "postFxTier": "cinematic",
+    "textureSources": [
+      "https://science.nasa.gov/3d-resources/venus/"
+    ],
+    "sourceLinks": [
+      "https://science.nasa.gov/3d-resources/venus/",
+      "https://science.nasa.gov/venus/"
+    ]
+  },
+  {
+    "bodyId": "earth",
+    "renderMode": "clouded_rocky",
+    "textureFormat": "png",
+    "textureSourceType": "official_model_texture",
+    "textureSourceNote": "主 albedo 优先来自 NASA Earth 3D Model 官方包内嵌纹理；它是官方模型纹理，不宣称为原始观测全球测图。当前站内运行时使用的是从官方模型纹理生成的多级 PNG 导数。",
+    "supportMapSourceNote": "night lights、specular、normal 和部分云层仍是基于 NASA Earth 参考资料生成的本地辅助贴图，主要用于实时渲染表现。",
+    "mipTiers": ["1k", "2k", "4k", "8k"],
+    "maps": {
+      "albedo": "/textures/planets/earth/albedo-{quality}.png",
+      "bump": "/textures/planets/earth/bump-{quality}.png",
+      "normal": "/textures/planets/earth/normal-{quality}.png",
+      "roughness": "/textures/planets/earth/roughness-{quality}.png",
+      "clouds": "/textures/planets/earth/clouds-{quality}.png",
+      "nightLights": "/textures/planets/earth/night-lights-{quality}.png",
+      "specular": "/textures/planets/earth/specular-{quality}.png"
+    },
+    "fallbackMaps": {
+      "albedo": "/textures/planets/earth/albedo-{quality}.svg",
+      "bump": "/textures/planets/earth/bump-{quality}.svg",
+      "roughness": "/textures/planets/earth/roughness-{quality}.svg",
+      "clouds": "/textures/planets/earth/clouds-{quality}.svg",
+      "nightLights": "/textures/planets/earth/night-lights-{quality}.svg"
+    },
+    "detailMaps": {
+      "normal": "/textures/planets/earth/normal-{quality}.png"
+    },
+    "specularMap": "/textures/planets/earth/specular-{quality}.png",
+    "ringRoughness": null,
+    "quality": {
+      "overview": "2k",
+      "system": "2k",
+      "detail": "8k"
+    },
+    "material": {
+      "roughness": 0.84,
+      "metalness": 0.04,
+      "normalScale": 0.42,
+      "bumpScale": 0.3,
+      "emissiveIntensity": 0.92,
+      "atmosphereColor": "#80d0ff",
+      "atmosphereIntensity": 0.84,
+      "fresnelPower": 2.05,
+      "cloudSpeed": 0.02
+    },
+    "geometry": {
+      "useOfficialMesh": false,
+      "modelPath": null,
+      "axialTiltDeg": 23.44
+    },
+    "postFxTier": "heroic",
+    "textureSources": [
+      "https://science.nasa.gov/resource/earth-3d-model/"
+    ],
+    "sourceLinks": [
+      "https://science.nasa.gov/resource/earth-3d-model/",
+      "https://visibleearth.nasa.gov/images/73605/february-blue-marble-next-generation-w-topography-and-bathymetry",
+      "https://science.nasa.gov/earth/"
+    ]
+  },
+  {
+    "bodyId": "mars",
+    "renderMode": "rocky",
+    "textureFormat": "png",
+    "textureSourceType": "official_observational",
+    "textureSourceNote": "主 albedo 已切换为 NASA 3D Resources 发布的 Mars 全球纹理，页面说明标注其来自 Viking 图像并经 USGS 处理。",
+    "supportMapSourceNote": "bump / normal / roughness 仍是基于官方底图与地貌特征生成的站内辅助贴图。",
+    "mipTiers": ["1k", "2k", "4k", "8k"],
+    "maps": {
+      "albedo": "/textures/planets/mars/albedo-{quality}.png",
+      "bump": "/textures/planets/mars/bump-{quality}.png",
+      "normal": "/textures/planets/mars/normal-{quality}.png",
+      "roughness": "/textures/planets/mars/roughness-{quality}.png"
+    },
+    "fallbackMaps": {
+      "albedo": "/textures/planets/mars/albedo-{quality}.svg",
+      "bump": "/textures/planets/mars/bump-{quality}.svg",
+      "roughness": "/textures/planets/mars/roughness-{quality}.svg"
+    },
+    "detailMaps": {
+      "normal": "/textures/planets/mars/normal-{quality}.png"
+    },
+    "specularMap": null,
+    "ringRoughness": null,
+    "quality": {
+      "overview": "2k",
+      "system": "2k",
+      "detail": "8k"
+    },
+    "material": {
+      "roughness": 0.9,
+      "metalness": 0.02,
+      "normalScale": 0.36,
+      "bumpScale": 0.26,
+      "emissiveIntensity": 0,
+      "atmosphereColor": "#ff9e7a",
+      "atmosphereIntensity": 0.23,
+      "fresnelPower": 2.55,
+      "cloudSpeed": 0
+    },
+    "geometry": {
+      "useOfficialMesh": false,
+      "modelPath": null,
+      "axialTiltDeg": 25.19
+    },
+    "postFxTier": "heroic",
+    "textureSources": [
+      "https://science.nasa.gov/3d-resources/mars/"
+    ],
+    "sourceLinks": [
+      "https://science.nasa.gov/3d-resources/mars/",
+      "https://science.nasa.gov/mars/"
+    ]
+  },
+  {
+    "bodyId": "jupiter",
+    "renderMode": "gas_giant",
+    "textureFormat": "png",
+    "textureSourceType": "official_observational",
+    "textureSourceNote": "主 albedo 已切换为 NASA Photojournal 发布的 Cassini 木星柱状投影全球图，本地运行时使用的是从官方 TIFF 生成的多级 PNG 导数。",
+    "supportMapSourceNote": "云层与 roughness 仍保留少量站内辅助贴图，用来给气态条带增加纵深和镜头层次。",
+    "mipTiers": ["1k", "2k", "4k", "8k"],
+    "maps": {
+      "albedo": "/textures/planets/jupiter/albedo-{quality}.png",
+      "clouds": "/textures/planets/jupiter/clouds-{quality}.png",
+      "roughness": "/textures/planets/jupiter/roughness-{quality}.png",
+      "emissive": "/textures/planets/jupiter/emissive-{quality}.png"
+    },
+    "fallbackMaps": {
+      "albedo": "/textures/planets/jupiter/albedo-{quality}.svg",
+      "clouds": "/textures/planets/jupiter/clouds-{quality}.svg",
+      "roughness": "/textures/planets/jupiter/roughness-{quality}.svg"
+    },
+    "detailMaps": {},
+    "specularMap": null,
+    "ringRoughness": null,
+    "quality": {
+      "overview": "2k",
+      "system": "2k",
+      "detail": "8k"
+    },
+    "material": {
+      "roughness": 0.72,
+      "metalness": 0.01,
+      "normalScale": 0.02,
+      "bumpScale": 0.08,
+      "emissiveIntensity": 0.05,
+      "atmosphereColor": "#ffd9bc",
+      "atmosphereIntensity": 0.42,
+      "fresnelPower": 2.3,
+      "cloudSpeed": 0.008
+    },
+    "geometry": {
+      "useOfficialMesh": false,
+      "modelPath": null,
+      "axialTiltDeg": 3.13
+    },
+    "postFxTier": "heroic",
+    "textureSources": [
+      "https://science.nasa.gov/photojournal/cassinis-best-maps-of-jupiter-cylindrical-map/"
+    ],
+    "sourceLinks": [
+      "https://science.nasa.gov/photojournal/cassinis-best-maps-of-jupiter-cylindrical-map/",
+      "https://science.nasa.gov/jupiter/"
+    ]
+  },
+  {
+    "bodyId": "saturn",
+    "renderMode": "gas_giant",
+    "textureFormat": "png",
+    "textureSourceType": "official_model_texture",
+    "textureSourceNote": "主 albedo 与环面颜色优先来自 NASA Saturn 3D Model 官方包内嵌纹理；这属于官方模型纹理，不等同于完整观测全球底图。",
+    "supportMapSourceNote": "ring alpha / ring roughness 与部分大气层辅助贴图仍有站内派生处理，用于适配实时透明环渲染。",
+    "mipTiers": ["1k", "2k", "4k", "8k"],
+    "maps": {
+      "albedo": "/textures/planets/saturn/albedo-{quality}.png",
+      "clouds": "/textures/planets/saturn/clouds-{quality}.png",
+      "roughness": "/textures/planets/saturn/roughness-{quality}.png",
+      "ringColor": "/textures/planets/saturn/ring-color-{quality}.png",
+      "ringAlpha": "/textures/planets/saturn/ring-alpha-{quality}.png",
+      "ringRoughness": "/textures/planets/saturn/ring-roughness-{quality}.png"
+    },
+    "fallbackMaps": {
+      "albedo": "/textures/planets/saturn/albedo-{quality}.svg",
+      "clouds": "/textures/planets/saturn/clouds-{quality}.svg",
+      "roughness": "/textures/planets/saturn/roughness-{quality}.svg",
+      "ringColor": "/textures/planets/saturn/ring-color-{quality}.svg",
+      "ringAlpha": "/textures/planets/saturn/ring-alpha-{quality}.svg"
+    },
+    "detailMaps": {},
+    "specularMap": null,
+    "ringRoughness": "/textures/planets/saturn/ring-roughness-{quality}.png",
+    "quality": {
+      "overview": "2k",
+      "system": "2k",
+      "detail": "8k"
+    },
+    "material": {
+      "roughness": 0.76,
+      "metalness": 0.01,
+      "normalScale": 0.02,
+      "bumpScale": 0.06,
+      "emissiveIntensity": 0,
+      "atmosphereColor": "#ffe6bf",
+      "atmosphereIntensity": 0.38,
+      "fresnelPower": 2.28,
+      "cloudSpeed": 0.006
+    },
+    "geometry": {
+      "useOfficialMesh": false,
+      "modelPath": null,
+      "axialTiltDeg": 26.73
+    },
+    "postFxTier": "heroic",
+    "textureSources": [
+      "https://science.nasa.gov/resource/saturn-3d-model/"
+    ],
+    "sourceLinks": [
+      "https://science.nasa.gov/resource/saturn-3d-model/",
+      "https://science.nasa.gov/saturn/"
+    ]
+  },
+  {
+    "bodyId": "uranus",
+    "renderMode": "ice_giant",
+    "textureFormat": "png",
+    "textureSourceType": "official_model_texture",
+    "textureSourceNote": "主 albedo 优先来自 NASA Uranus 3D Model 官方包内嵌纹理；它是官方模型纹理，不宣称为完整观测全球测图。",
+    "supportMapSourceNote": "clouds / roughness 仍使用少量站内辅助贴图，主要服务于冰巨星边缘散射和镜头层次。",
+    "mipTiers": ["1k", "2k", "4k"],
+    "maps": {
+      "albedo": "/textures/planets/uranus/albedo-{quality}.png",
+      "clouds": "/textures/planets/uranus/clouds-{quality}.png",
+      "roughness": "/textures/planets/uranus/roughness-{quality}.png"
+    },
+    "fallbackMaps": {
+      "albedo": "/textures/planets/uranus/albedo-{quality}.svg",
+      "clouds": "/textures/planets/uranus/clouds-{quality}.svg",
+      "roughness": "/textures/planets/uranus/roughness-{quality}.svg"
+    },
+    "detailMaps": {},
+    "specularMap": null,
+    "ringRoughness": null,
+    "quality": {
+      "overview": "2k",
+      "system": "2k",
+      "detail": "4k"
+    },
+    "material": {
+      "roughness": 0.78,
+      "metalness": 0.01,
+      "normalScale": 0.015,
+      "bumpScale": 0.04,
+      "emissiveIntensity": 0,
+      "atmosphereColor": "#8aeaf5",
+      "atmosphereIntensity": 0.48,
+      "fresnelPower": 2.26,
+      "cloudSpeed": 0.004
+    },
+    "geometry": {
+      "useOfficialMesh": false,
+      "modelPath": null,
+      "axialTiltDeg": 97.77
+    },
+    "postFxTier": "cinematic",
+    "textureSources": [
+      "https://science.nasa.gov/resource/uranus-3d-model/"
+    ],
+    "sourceLinks": [
+      "https://science.nasa.gov/resource/uranus-3d-model/",
+      "https://science.nasa.gov/uranus/"
+    ]
+  },
+  {
+    "bodyId": "neptune",
+    "renderMode": "ice_giant",
+    "textureFormat": "png",
+    "textureSourceType": "official_interpreted",
+    "textureSourceNote": "主 albedo 已切换为 NASA 3D Resources 的 Neptune 官方纹理页资源；页面说明明确标为基于 Don Davis / JPL-Caltech 的官方解释型纹理，而非完整观测全球底图。",
+    "supportMapSourceNote": "clouds / roughness / emissive 仍为站内辅助贴图，用于保留大气层次与风暴对比。",
+    "mipTiers": ["1k", "2k", "4k"],
+    "maps": {
+      "albedo": "/textures/planets/neptune/albedo-{quality}.png",
+      "clouds": "/textures/planets/neptune/clouds-{quality}.png",
+      "roughness": "/textures/planets/neptune/roughness-{quality}.png",
+      "emissive": "/textures/planets/neptune/emissive-{quality}.png"
+    },
+    "fallbackMaps": {
+      "albedo": "/textures/planets/neptune/albedo-{quality}.svg",
+      "clouds": "/textures/planets/neptune/clouds-{quality}.svg",
+      "roughness": "/textures/planets/neptune/roughness-{quality}.svg"
+    },
+    "detailMaps": {},
+    "specularMap": null,
+    "ringRoughness": null,
+    "quality": {
+      "overview": "2k",
+      "system": "2k",
+      "detail": "4k"
+    },
+    "material": {
+      "roughness": 0.78,
+      "metalness": 0.01,
+      "normalScale": 0.02,
+      "bumpScale": 0.04,
+      "emissiveIntensity": 0.04,
+      "atmosphereColor": "#7fb3ff",
+      "atmosphereIntensity": 0.52,
+      "fresnelPower": 2.22,
+      "cloudSpeed": 0.005
+    },
+    "geometry": {
+      "useOfficialMesh": false,
+      "modelPath": null,
+      "axialTiltDeg": 28.32
+    },
+    "postFxTier": "cinematic",
+    "textureSources": [
+      "https://science.nasa.gov/3d-resources/neptune/"
+    ],
+    "sourceLinks": [
+      "https://science.nasa.gov/3d-resources/neptune/",
+      "https://science.nasa.gov/neptune/"
+    ]
+  },
+  {
+    "bodyId": "pluto",
+    "renderMode": "dwarf_ice",
+    "textureFormat": "png",
+    "textureSourceType": "official_observational",
+    "textureSourceNote": "主 albedo 已切换为 NASA Photojournal 的 New Horizons Pluto 全球图，本地只生成多级 PNG 导数并保留原始参考页链接。",
+    "supportMapSourceNote": "bump / normal / roughness 仍为基于官方底图细节构建的站内辅助贴图。",
+    "mipTiers": ["1k", "2k", "4k"],
+    "maps": {
+      "albedo": "/textures/planets/pluto/albedo-{quality}.png",
+      "bump": "/textures/planets/pluto/bump-{quality}.png",
+      "normal": "/textures/planets/pluto/normal-{quality}.png",
+      "roughness": "/textures/planets/pluto/roughness-{quality}.png"
+    },
+    "fallbackMaps": {
+      "albedo": "/textures/planets/pluto/albedo-{quality}.svg",
+      "bump": "/textures/planets/pluto/bump-{quality}.svg",
+      "roughness": "/textures/planets/pluto/roughness-{quality}.svg"
+    },
+    "detailMaps": {
+      "normal": "/textures/planets/pluto/normal-{quality}.png"
+    },
+    "specularMap": null,
+    "ringRoughness": null,
+    "quality": {
+      "overview": "2k",
+      "system": "2k",
+      "detail": "4k"
+    },
+    "material": {
+      "roughness": 0.88,
+      "metalness": 0.02,
+      "normalScale": 0.34,
+      "bumpScale": 0.24,
+      "emissiveIntensity": 0,
+      "atmosphereColor": "#d8d4e5",
+      "atmosphereIntensity": 0.14,
+      "fresnelPower": 2.38,
+      "cloudSpeed": 0
+    },
+    "geometry": {
+      "useOfficialMesh": false,
+      "modelPath": null,
+      "axialTiltDeg": 122.53
+    },
+    "postFxTier": "cinematic",
+    "textureSources": [
+      "https://science.nasa.gov/photojournal/global-map-of-pluto/"
+    ],
+    "sourceLinks": [
+      "https://science.nasa.gov/photojournal/global-map-of-pluto/",
+      "https://science.nasa.gov/dwarf-planets/pluto/"
+    ]
+  }
+]

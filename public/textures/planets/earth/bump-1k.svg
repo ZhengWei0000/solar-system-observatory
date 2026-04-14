@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="512" viewBox="0 0 1024 512" preserveAspectRatio="none" aria-label="earth bump texture">
+  <rect width="100%" height="100%" fill="#8ba9b5"/>
+  <g transform="scale(1 1)" opacity="0.55">
+
+  <path d="M110 180 C140 120 220 110 280 140 C330 165 360 225 338 280 C310 350 210 355 155 312 C115 280 92 230 110 180 Z" fill="#d9d9d9" opacity="0.92"/>
+  <path d="M360 120 C430 80 520 88 586 130 C642 168 666 220 640 278 C612 338 530 352 462 316 C395 280 346 196 360 120 Z" fill="#c9c9c9" opacity="0.9"/>
+  <path d="M706 188 C756 148 838 144 902 180 C948 204 972 248 960 300 C944 364 870 396 804 374 C742 354 690 302 692 246 C693 223 700 205 706 188 Z" fill="#b5b5b5" opacity="0.88"/>
+  <path d="M758 70 C794 48 846 50 888 74 C926 96 948 128 944 158 C936 200 884 226 834 214 C776 200 734 158 736 116 C736 98 744 82 758 70 Z" fill="#c4c4c4" opacity="0.84"/>
+  </g>
+</svg>

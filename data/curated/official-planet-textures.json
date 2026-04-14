@@ -1,0 +1,155 @@
+[
+  {
+    "bodyId": "mercury",
+    "sourceType": "official_observational",
+    "sourcePage": "https://science.nasa.gov/photojournal/full-global-mercury-mosaic/",
+    "download": {
+      "kind": "direct_raster",
+      "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia12/pia12397/PIA12397.tif",
+      "fileName": "PIA12397.tif"
+    },
+    "outputs": [
+      {
+        "mapKey": "albedo",
+        "sourceKind": "planet"
+      }
+    ]
+  },
+  {
+    "bodyId": "venus",
+    "sourceType": "official_observational",
+    "sourcePage": "https://science.nasa.gov/3d-resources/venus/",
+    "download": {
+      "kind": "direct_raster",
+      "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/image/venus/Venus.tif",
+      "fileName": "Venus.tif"
+    },
+    "outputs": [
+      {
+        "mapKey": "albedo",
+        "sourceKind": "planet"
+      }
+    ]
+  },
+  {
+    "bodyId": "earth",
+    "sourceType": "official_model_texture",
+    "sourcePage": "https://science.nasa.gov/resource/earth-3d-model/",
+    "download": {
+      "kind": "glb_extract",
+      "url": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/e/Earth_1_12756.glb",
+      "fileName": "Earth_1_12756.glb"
+    },
+    "outputs": [
+      {
+        "mapKey": "albedo",
+        "sourceKind": "planet",
+        "nameIncludes": "earth_diff"
+      }
+    ]
+  },
+  {
+    "bodyId": "mars",
+    "sourceType": "official_observational",
+    "sourcePage": "https://science.nasa.gov/3d-resources/mars/",
+    "download": {
+      "kind": "direct_raster",
+      "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/image/mars/Mars.tif",
+      "fileName": "Mars.tif"
+    },
+    "outputs": [
+      {
+        "mapKey": "albedo",
+        "sourceKind": "planet"
+      }
+    ]
+  },
+  {
+    "bodyId": "jupiter",
+    "sourceType": "official_observational",
+    "sourcePage": "https://science.nasa.gov/photojournal/cassinis-best-maps-of-jupiter-cylindrical-map/",
+    "download": {
+      "kind": "direct_raster",
+      "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia07/pia07782/PIA07782.tif",
+      "fileName": "PIA07782.tif"
+    },
+    "outputs": [
+      {
+        "mapKey": "albedo",
+        "sourceKind": "planet"
+      }
+    ]
+  },
+  {
+    "bodyId": "saturn",
+    "sourceType": "official_model_texture",
+    "sourcePage": "https://science.nasa.gov/resource/saturn-3d-model/",
+    "download": {
+      "kind": "glb_extract",
+      "url": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/s/Saturn_1_120536.glb",
+      "fileName": "Saturn_1_120536.glb"
+    },
+    "outputs": [
+      {
+        "mapKey": "albedo",
+        "sourceKind": "planet",
+        "nameIncludes": "saturn_diff"
+      },
+      {
+        "mapKey": "ringColor",
+        "sourceKind": "ring",
+        "nameIncludes": "saturn_rings",
+        "duplicateTo": ["ringAlpha"]
+      }
+    ]
+  },
+  {
+    "bodyId": "uranus",
+    "sourceType": "official_model_texture",
+    "sourcePage": "https://science.nasa.gov/resource/uranus-3d-model/",
+    "download": {
+      "kind": "glb_extract",
+      "url": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/u/Uranus_1_51118.glb",
+      "fileName": "Uranus_1_51118.glb"
+    },
+    "outputs": [
+      {
+        "mapKey": "albedo",
+        "sourceKind": "planet",
+        "nameIncludes": "Image_0"
+      }
+    ]
+  },
+  {
+    "bodyId": "neptune",
+    "sourceType": "official_interpreted",
+    "sourcePage": "https://science.nasa.gov/3d-resources/neptune/",
+    "download": {
+      "kind": "direct_raster",
+      "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/image/neptune/Neptune.tif",
+      "fileName": "Neptune.tif"
+    },
+    "outputs": [
+      {
+        "mapKey": "albedo",
+        "sourceKind": "planet"
+      }
+    ]
+  },
+  {
+    "bodyId": "pluto",
+    "sourceType": "official_observational",
+    "sourcePage": "https://science.nasa.gov/photojournal/global-map-of-pluto/",
+    "download": {
+      "kind": "direct_raster",
+      "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia19/pia19858/PIA19858.jpg",
+      "fileName": "PIA19858.jpg"
+    },
+    "outputs": [
+      {
+        "mapKey": "albedo",
+        "sourceKind": "planet"
+      }
+    ]
+  }
+]
