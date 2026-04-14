@@ -2,6 +2,8 @@ name: Build and release Windows desktop app
 
 on:
   push:
+    branches:
+      - main
     tags:
       - "v*"
   workflow_dispatch:
@@ -21,6 +23,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          cache: pnpm
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -28,9 +31,11 @@ jobs:
           version: 10
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --no-frozen-lockfile
 
       - name: Build Next.js and package desktop app
+        env:
+          NEXT_TELEMETRY_DISABLED: "1"
         run: pnpm run desktop:build
 
       - name: List generated installers
@@ -51,7 +56,4 @@ jobs:
         with:
           files: |
             dist-desktop/*.exe
-            dist-desktop/*.exe.blockmap
-            dist-desktop/*.yml
           generate_release_notes: false
-*** End Patch
