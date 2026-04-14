@@ -51,6 +51,33 @@ pnpm dev
 
 打开 [http://localhost:3000](http://localhost:3000)。
 
+### 2.1 上传到 GitHub（推荐）
+
+仓库已添加远端：
+
+```text
+origin = https://github.com/ZhengWei0000/solar-system-observatory.git
+```
+
+推荐用 GitHub PAT（推荐 scope：`repo`）一键推送：
+
+```bash
+export GITHUB_TOKEN=<你的_GITHUB_PAT>
+./scripts/push-to-github.sh main origin https://github.com/ZhengWei0000/solar-system-observatory.git
+# 或
+npm run git:push -- main origin https://github.com/ZhengWei0000/solar-system-observatory.git
+```
+
+也可用 SSH（长期推荐）：
+
+```bash
+ssh-keygen -t ed25519 -C "you@example.com"   # 如未创建过
+cat ~/.ssh/id_ed25519.pub
+# 将公钥加入 GitHub -> Settings -> SSH and GPG keys
+git remote set-url origin git@github.com:ZhengWei0000/solar-system-observatory.git
+git push -u origin main
+```
+
 ### 2.1 没有自己的域名也能共享
 
 可以不买域名直接发公开链接给别人，先启动站点后，再执行公开隧道命令：

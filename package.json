@@ -7,6 +7,7 @@
     "dev": "next dev --webpack",
     "build": "next build --webpack",
     "start": "next start",
+    "git:push": "sh ./scripts/push-to-github.sh",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
